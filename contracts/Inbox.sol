@@ -11,7 +11,7 @@ contract Inbox {
         message = newMessage;
     } 
 
-    function doMath(int a, int b) {
+    function doMath(int a, int b) private{
         a+b;
         b-a;
         a*b;
